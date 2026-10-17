@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- HEADER -->
+    <head>
+        <meta charset="UTF-8" />
+        <title> SIGN-IN </title>
+        <!--CSS LINK-->
+        <link rel="stylesheet" href="../lgn/css/style.css">
+        <!-- Boxicons CDN Link -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+<!-- BODY -->
+    <body class="signinbody">
+        
+        <section class="signin" id="signin">
+            <!--HEAD-->
+            <div class="head">
+                <h1 class="Welcome">Welcome</h1>
+            </div>
+            <h2 class="sgn">-SIGN IN-</h2>
+            <!--FORM-->
+            <div class="form">
+
+                <form method="post">
+                    <i class='bx bx-user'></i>
+                    <input type="text" name="username" id="username" placeholder="User name/Email " required><br>
+
+                    <i class='bx bx-lock'></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required><br>
+
+                    <div class="remember">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+
+                    <!--ALERT 
+                    <div class="alert">
+                        <?php include_once ".." ?>
+                        <?php if (isset($erreur)){echo $erreur;} ?><br>            
+                    </div>
+                    -->
+
+                    <button type="submit" name="submit" class="btn-signin" id="btn-signin">SIGN IN NOW</button>
+
+                    <a  class="password" href="#">Forgot Password ?</a><br>
+
+                    <p class="go-signup">You don't have an account ? <br> <a class="sign" href="../lgn/signup.html">Sign up here! </a></p>
+                    
+                    
+                    
+                </form>
+
+            </div>
+        </section>
+        
+    </body>
+
+<!-- FOUTER -->
+    <footer>
+
+        <!--java script-->
+
+    </footer>
+</html>
